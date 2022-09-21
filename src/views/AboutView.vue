@@ -1,5 +1,4 @@
 <template lang="pug">
 #about
-  h2 about me
-  
+  img(src="https://picsum.photos/1400/1200")
 </template>

@@ -1,7 +1,6 @@
 <template lang="pug">
 #home
-  HelloWorld
-  HelloWorld
+  img(src="https://picsum.photos/id/1011/1400/1200")
 </template>
 
 <script lang="ts">
@@ -17,3 +16,7 @@ export default defineComponent({
   },
 });
 </script>
+<style lang="sass" scoped>
+.pic-filter
+  background-color: rgba(255, 255, 255, 0.4)
+</style>
