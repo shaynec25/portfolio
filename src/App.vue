@@ -1,9 +1,14 @@
-<template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view />
+<template lang="pug">
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.fixed-top
+  .container-fluid
+    a.navbar-brand(href='#') Shayne Chang
+    button.navbar-toggler(type='button' data-bs-toggle='collapse' data-bs-target='#navbarNavAltMarkup' aria-controls='navbarNavAltMarkup' aria-expanded='false' aria-label='Toggle navigation')
+      span.navbar-toggler-icon
+    #navbarNavAltMarkup.collapse.navbar-collapse
+      .navbar-nav
+        router-link.nav-link(to='/') Home
+        router-link.nav-link(to='/users') Users
+router-view.vh-75.view
 </template>
 
 <style>
