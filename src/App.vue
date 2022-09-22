@@ -12,7 +12,7 @@
               a(:href="navItem.path") {{navItem.name}}
 Waypoint(@change="onchange")
   HomeView
-AboutView
+//- AboutView
 </template>
 <script lang="ts">
 import { defineComponent } from "vue";
