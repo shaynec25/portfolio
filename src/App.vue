@@ -1,25 +1,37 @@
 <template lang="pug">
 #home
-  #nav.nav-wrap(:class="[isTop? 'nav-bg-tran': 'nav-bg-light']")
-    nav.navbar.navbar-expand-lg.fixed-top(:class="[isTop? 'navbar-dark': 'navbar-light']")
+  #nav.nav-wrap(:class="[isTop? 'nav-bg-tran': 'nav-bg-light' ]")
+    nav.navbar.navbar-expand-lg(:class="[isTop? 'navbar-dark': 'navbar-light']")
       .container-fluid
         a.navbar-brand(href='#') Shayne
         button.menu-icon.navbar-toggler(type='button' data-bs-toggle='collapse' data-bs-target='#navbarNavAltMarkup' aria-controls='navbarNavAltMarkup' aria-expanded='false' aria-label='Toggle navigation')
           span.navbar-toggler-icon
-        #navbarNavAltMarkup.collapse.navbar-collapse
+        #navbarNavAltMarkup.collapse.navbar-collapse.nav-right
           ul.navbar-nav.ms-auto
             li.nav-link(style="--bs-nav-link-font-size: 10px;" v-for="navItem in navLists")
-              a(:href="navItem.path") {{navItem.name}}
+              a(:href="navItem.path" :class="[isTop? 'text-light' : 'text-dark']") {{navItem.name}}
 Waypoint(@change="onchange")
   HomeView
-//- AboutView
+AboutView
+EnEView
+SkillView
 </template>
 <script lang="ts">
 import { defineComponent } from "vue";
+import { Waypoint } from "vue-waypoint";
 import HomeView from "@/views/HomeView.vue";
 import AboutView from "@/views/AboutView.vue";
-import { Waypoint } from "vue-waypoint";
+import EnEView from "@/views/EnEView.vue";
+import SkillView from "@/views/SkillView.vue";
+
 export default defineComponent({
+  components: {
+    HomeView,
+    AboutView,
+    Waypoint,
+    EnEView,
+    SkillView,
+  },
   data() {
     return {
       isTop: true,
@@ -34,7 +46,7 @@ export default defineComponent({
         },
         {
           name: "Experience & Education",
-          path: "#exp",
+          path: "#experienceAndEdu",
         },
         {
           name: "Skill",
@@ -50,11 +62,6 @@ export default defineComponent({
         },
       ],
     };
-  },
-  components: {
-    HomeView,
-    AboutView,
-    Waypoint,
   },
   methods: {
     onchange(state: any) {
@@ -88,15 +95,20 @@ export default defineComponent({
   transition: 1s
 .nav-bg-light
   background-color: var(--bs-light)
+  -webkit-box-shadow: 0 -1px 10px rgb(0 0 0 / 25%)
   transition: 1s
 nav
   padding: 30px
   height: 45px
 nav a
+  text-decoration: none
   font-weight: bold
-  color: #2c3e50
-nav a.router-link-exact-active
-  color: #42b983
+.nav-right
+  position: absolute
+  top: 5px
+  right: 0px
+  padding-right: 1rem
+  // width: 400px
 .menu-icon
   border: none !important
 </style>
