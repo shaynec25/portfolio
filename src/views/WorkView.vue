@@ -1,7 +1,7 @@
 <template lang="pug">
-#skill.bg-light-green
+#work
   .container
     .row.py-5.p-3
       .col 
-          h1 Skills & Abilities
+          h1 Projects Made
 </template>

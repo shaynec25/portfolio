@@ -15,6 +15,7 @@ Waypoint(@change="onchange")
 AboutView
 EnEView
 SkillView
+WorkView
 </template>
 <script lang="ts">
 import { defineComponent } from "vue";
@@ -23,6 +24,7 @@ import HomeView from "@/views/HomeView.vue";
 import AboutView from "@/views/AboutView.vue";
 import EnEView from "@/views/EnEView.vue";
 import SkillView from "@/views/SkillView.vue";
+import WorkView from "@/views/WorkView.vue";
 
 export default defineComponent({
   components: {
@@ -31,6 +33,7 @@ export default defineComponent({
     Waypoint,
     EnEView,
     SkillView,
+    WorkView,
   },
   data() {
     return {
@@ -53,8 +56,8 @@ export default defineComponent({
           path: "#skill",
         },
         {
-          name: "Project",
-          path: "#project",
+          name: "Work",
+          path: "#work",
         },
         {
           name: "Download My CV",
@@ -111,4 +114,6 @@ nav a
   // width: 400px
 .menu-icon
   border: none !important
+.bg-light-green
+  background-color: #d8ddd4
 </style>
