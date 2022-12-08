@@ -116,4 +116,6 @@ nav a
   border: none !important
 .bg-light-green
   background-color: #d8ddd4
+p
+  color: #666
 </style>
