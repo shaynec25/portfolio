@@ -2,8 +2,8 @@
 div
   p.fs-4 {{title}}
   p.fs-6 {{subTitle}}
-  p(style="white-space: pre").fs-6 {{des}}
-  .fs-6 {{foot}}
+  ul.no-bullets
+    li(v-for="des in des") {{des}}
 </template>
 
 <script lang="ts">
@@ -15,10 +15,14 @@ export default defineComponent({
     time: String,
     title: String,
     subTitle: String,
-    des: String,
+    des: Array,
     foot: String,
   },
 });
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style lang="sass">
+.no-bullets
+  list-style-type: none
+  padding: 0
+</style>
