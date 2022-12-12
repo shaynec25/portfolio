@@ -8,7 +8,18 @@
      
             .col.p-3
                 h1 Education
+        TimeLine
 </template>
+<script lang="ts">
+// import { defineComponent } from 'vue'
+import TimeLine from "@/components/TimeLine.vue";
+export default {
+  components: {
+    TimeLine,
+  },
+};
+</script>
+
 <style lang="sass" scoped>
 p
   margin: 0

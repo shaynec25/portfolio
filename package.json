@@ -17,8 +17,10 @@
     "sass-loader": "^13.0.2",
     "vue": "^3.2.13",
     "vue-router": "^4.0.3",
+    "vue-vertical-timeline": "^0.1.0",
     "vue-waypoint": "^4.2.5",
-    "vuex": "^4.0.0"
+    "vuex": "^4.0.0",
+    "yoona-vue-timeline": "^1.0.7"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.4.0",
