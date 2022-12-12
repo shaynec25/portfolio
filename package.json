@@ -20,13 +20,8 @@
     "vue-router": "^4.0.3",
     "vue-vertical-timeline": "^0.1.0",
     "vue-waypoint": "^4.2.5",
-<<<<<<< HEAD
-    "vuex": "^4.0.0",
-    "yoona-vue-timeline": "^1.0.7"
-=======
     "vue3-timeline": "^1.2.3",
     "vuex": "^4.0.0"
->>>>>>> 58c911d6eff9d147415cd399dd95979c05fcb689
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.4.0",

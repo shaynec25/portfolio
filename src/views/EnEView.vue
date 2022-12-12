@@ -10,25 +10,6 @@
                         TimeLineCard(:title="experience.jobTitle" :sub-title="experience.company" :des="experience.description")
             .col.p-3
                 h1 Education
-<<<<<<< HEAD
-        TimeLine
-</template>
-<script lang="ts">
-// import { defineComponent } from 'vue'
-import TimeLine from "@/components/TimeLine.vue";
-export default {
-  components: {
-    TimeLine,
-  },
-};
-</script>
-
-<style lang="sass" scoped>
-p
-  margin: 0
-  color: #666
-</style>
-=======
                 Timeline
                     TimelineItem.fs-6(v-for="experience in experiences") {{experience.time}}
                         TimeLineCard(:title="experience.jobTitle" :sub-title="experience.company" :des="experience.description")
@@ -61,4 +42,3 @@ export default defineComponent({
   components: { Timeline, TimelineTitle, TimelineItem, TimeLineCard },
 });
 </script>
->>>>>>> 58c911d6eff9d147415cd399dd95979c05fcb689
