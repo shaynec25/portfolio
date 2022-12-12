@@ -9,7 +9,7 @@
         #navbarNavAltMarkup.collapse.navbar-collapse.nav-right
           ul.navbar-nav.ms-auto
             li.nav-link(style="--bs-nav-link-font-size: 10px;" v-for="navItem in navLists")
-              a(:href="navItem.path" :class="[isTop? 'text-light' : 'text-dark']") {{navItem.name}}
+              a(:href="navItem.path" :class="[isTop? 'text-light' : 'text-dark']" ) {{navItem.name}}
 Waypoint(@change="onchange")
   HomeView
 AboutView
@@ -61,7 +61,7 @@ export default defineComponent({
         },
         {
           name: "Download My CV",
-          path: "#cv",
+          path: "https://drive.google.com/uc?export=download&id=1icZVrE2vIzNF73tuznT6Rk7nlUQhGg59",
         },
       ],
     };
@@ -69,10 +69,10 @@ export default defineComponent({
   methods: {
     onchange(state: any) {
       console.log(state.going);
-      if (state.going == "OUT") {
-        this.isTop = false;
-      } else {
+      if (state.going == "IN") {
         this.isTop = true;
+      } else {
+        this.isTop = false;
       }
     },
   },
