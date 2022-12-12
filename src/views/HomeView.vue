@@ -1,6 +1,7 @@
 <template lang="pug">
 #home.vh-100.position-relative
-  img(src="../assets/home.jpg").h-100.w-100
+  img(src="../assets/home.jpg").h-100.w-100.d-none.d-lg-block
+  img(src="../assets/home_m.jpg").h-100.w-100.d-lg-none
   .position-absolute.top-50.start-0.w-100.text-light
     h1 Hi! I'm Shayne Chang.
     AutoTyperVue(componentTag="h3" :text="typeText" typingDelay="100" deletingDelay="50")

@@ -6,10 +6,11 @@
         a.navbar-brand(href='#') Shayne
         button.menu-icon.navbar-toggler(type='button' data-bs-toggle='collapse' data-bs-target='#navbarNavAltMarkup' aria-controls='navbarNavAltMarkup' aria-expanded='false' aria-label='Toggle navigation')
           span.navbar-toggler-icon
-        #navbarNavAltMarkup.collapse.navbar-collapse.nav-right
+        #navbarNavAltMarkup.collapse.navbar-collapse
           ul.navbar-nav.ms-auto
             li.nav-link(style="--bs-nav-link-font-size: 10px;" v-for="navItem in navLists")
-              a(:href="navItem.path" :class="[isTop? 'text-light' : 'text-dark']" ) {{navItem.name}}
+              a.d-none.d-lg-block(:href="navItem.path" :class="[isTop? 'text-light' : 'text-dark']" ) {{navItem.name}}
+              a.d-lg-none.text-light(:href="navItem.path") {{navItem.name}}
 Waypoint(@change="onchange")
   HomeView
 AboutView
@@ -118,4 +119,8 @@ nav a
   background-color: #d8ddd4
 p
   color: #666
+
+@media (max-width: 768px)
+  .collapse
+    background: rgb(0 0 0 / 70%)
 </style>
