@@ -76,5 +76,40 @@
         "SCHOOL": "National Formosa University",
         "DESCRIPTIONS": ["Web-design、Graph-design、Anime、Programing"]
       }
+    ],
+  
+    "SKILLS": [
+      {
+        "TITLE": "Frontend",
+        "SUBTITLE": "Vue, Flutter, Swift, Kotlin, JS",
+        "DESCRIPTIONS": [
+          "Using Vue + Bootstrap + JS to build website.",
+          "Using RESTful API to get/set data.",
+          "Build multi-platform app by Flutter.",
+          "Build iOS App by Swift.",
+          "Learning Kotlin to build Android App."
+        ]
+      },
+      {
+        "TITLE": "Backend & Data",
+        "SUBTITLE": "Python, MySQL",
+        "DESCRIPTIONS": [
+          "Using python & SQL to do data process on Palantir.",
+          "Learning using Vapor to build server-side DB.",
+          "Design RESTful API.",
+          "Learning GraphQL."
+        ]
+      },
+      {
+        "TITLE": "Others",
+        "SUBTITLE": "Figma, Git, Photoshop, Illustrator",
+        "DESCRIPTIONS": [
+          "Using Git for version control and work with others.",
+          "UI & prototype design by Figma.",
+          "Basic image processing by PS.",
+          "Basic usage of AI.",
+          "Learning to write technical documentation."
+        ]
+      }
     ]
   }

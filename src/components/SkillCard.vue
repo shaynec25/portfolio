@@ -27,4 +27,13 @@ export default defineComponent({
 .no-bullets
   list-style-type: none
   padding: 0
+.card
+  min-height: 330px
+  .card-title
+    color: #446647
+.card:hover
+  transform: scale(1.1)
+  transition: all 0.5s ease 0s
+  .card-title
+    color: #213d23
 </style>
