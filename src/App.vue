@@ -81,7 +81,7 @@ export default defineComponent({
 </script>
 <style lang="sass">
 #app
-  font-family: Nunito,Noto Sans TC,sans-serif
+  font-family: 'Roboto Mono', monospace, Nunito,Noto Sans TC,sans-serif
   -webkit-font-smoothing: antialiased
   -moz-osx-font-smoothing: grayscale
   text-align: center
@@ -120,7 +120,7 @@ nav a
 p
   color: #666
 
-@media (max-width: 768px)
+@media (max-width: 992px)
   .collapse
     background: rgb(0 0 0 / 70%)
 </style>
