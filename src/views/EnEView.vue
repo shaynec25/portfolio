@@ -19,6 +19,7 @@ import { defineComponent } from "vue";
 import { Timeline, TimelineTitle, TimelineItem } from "vue3-timeline";
 import TimeLineCard from "../components/TimeLineCard.vue";
 export default defineComponent({
+  components: { Timeline, TimelineTitle, TimelineItem, TimeLineCard },
   data() {
     return {
       experiences: [
@@ -71,16 +72,6 @@ export default defineComponent({
           ],
         },
         {
-          time: "2014 Nov - 2016 Feb",
-          jobTitle: "澳洲打工度假勞工",
-          company: "多位僱主",
-          description: [
-            "到Tasmania體驗農業生活",
-            "到幾乎沒有台灣人的小鎮當Bakery Hand",
-            "到Whitsunday Islands私人島嶼度假村工作",
-          ],
-        },
-        {
           time: "2013 Jan - 2014 Sep",
           jobTitle: "專案執行人員",
           company: "長庚醫療財團法人林口長庚總院",
@@ -102,6 +93,5 @@ export default defineComponent({
       ],
     };
   },
-  components: { Timeline, TimelineTitle, TimelineItem, TimeLineCard },
 });
 </script>
