@@ -111,5 +111,42 @@
           "Learning to write technical documentation."
         ]
       }
+    ],
+    "WORKS":[
+      {
+        "TITLE": "靜態網頁",
+        "IMG": "https://picsum.photos/200",
+        "DESCRIPTIONS": "Website Built Using Vue 2 Cli, CSS, Bootstrap, SASS And Pug.",
+        "VIEW": "https://jigarsable.netlify.app/projects/",
+        "CODE": "https://jigarsable.netlify.app/projects/"
+      },
+      {
+        "TITLE": "靜態網頁",
+        "IMG": "https://picsum.photos/200",
+        "DESCRIPTIONS": "Website Built Using Vue 2 Cli, CSS, Bootstrap, SASS And Pug.",
+        "VIEW": "https://jigarsable.netlify.app/projects/",
+        "CODE": "https://jigarsable.netlify.app/projects/"
+      },
+      {
+        "TITLE": "靜態網頁",
+        "IMG": "https://picsum.photos/200",
+        "DESCRIPTIONS": "Website Built Using Vue 2 Cli, CSS, Bootstrap, SASS And Pug.",
+        "VIEW": "https://jigarsable.netlify.app/projects/",
+        "CODE": "https://jigarsable.netlify.app/projects/"
+      },
+      {
+        "TITLE": "靜態網頁",
+        "IMG": "https://picsum.photos/200",
+        "DESCRIPTIONS": "Website Built Using Vue 2 Cli, CSS, Bootstrap, SASS And Pug.",
+        "VIEW": "https://jigarsable.netlify.app/projects/",
+        "CODE": "https://jigarsable.netlify.app/projects/"
+      },
+      {
+        "TITLE": "靜態網頁",
+        "IMG": "https://picsum.photos/200",
+        "DESCRIPTIONS": "Website Built Using Vue 2 Cli, CSS, Bootstrap, SASS And Pug.",
+        "VIEW": "https://jigarsable.netlify.app/projects/",
+        "CODE": "https://jigarsable.netlify.app/projects/"
+      }
     ]
   }

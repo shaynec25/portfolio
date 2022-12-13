@@ -92,7 +92,8 @@ export default defineComponent({
   -moz-osx-font-smoothing: grayscale
   text-align: center
   color: #213d23
-
+.navbar-light
+  color: #213d23
 .nav-wrap
   height: 45px
   width: 100%

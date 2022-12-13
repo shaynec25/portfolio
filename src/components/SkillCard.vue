@@ -23,7 +23,7 @@ export default defineComponent({
 });
 </script>
 
-<style lang="sass">
+<style lang="sass" scoped>
 .no-bullets
   list-style-type: none
   padding: 0
