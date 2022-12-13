@@ -2,7 +2,7 @@
 #skill.bg-light-green
   .container
     .row.py-5.p-3
-      h1 Skills & Abilities
+      h1 {{ $t("SECTION_TITLE.SKILL")}}
       div(v-for="skill in skills").col-12.col-md-4.my-3
         SkillCard(:title="skill.title" :subTitle="skill.subTitle" :des="skill.des")
 

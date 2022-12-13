@@ -11,6 +11,7 @@
             li.nav-link(style="--bs-nav-link-font-size: 10px;" v-for="navItem in navLists")
               a.d-none.d-lg-block(:href="navItem.path" :class="[isTop? 'text-light' : 'text-dark']" ) {{navItem.name}}
               a.d-lg-none.text-light(:href="navItem.path") {{navItem.name}}
+            li.nav-link.btn.btn-lang(style="--bs-nav-link-font-size: 10px;" @click="setLang") {{$t('btn-lang')}}
 Waypoint(@change="onchange")
   HomeView
 AboutView
@@ -49,7 +50,7 @@ export default defineComponent({
           path: "#about",
         },
         {
-          name: "Experience & Education",
+          name: "Experience_&_Education",
           path: "#experienceAndEdu",
         },
         {
@@ -61,7 +62,7 @@ export default defineComponent({
           path: "#work",
         },
         {
-          name: "Download My CV",
+          name: "Download_My_CV",
           path: "https://drive.google.com/uc?export=download&id=1icZVrE2vIzNF73tuznT6Rk7nlUQhGg59",
         },
       ],
@@ -75,6 +76,11 @@ export default defineComponent({
       } else {
         this.isTop = false;
       }
+    },
+    setLang() {
+      let currentLang = localStorage.getItem("set-lang");
+      localStorage.setItem("set-lang", currentLang == "tw" ? "en" : "tw");
+      this.$router.go(0);
     },
   },
 });

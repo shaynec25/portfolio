@@ -1,0 +1,80 @@
+{
+    "btn-lang": "中文",
+    "ABOUTS": ["2+ years frontend developerbased in Taipei, Taiwan.", "Working on webstie, App developerment and some data science.","Able to use Vue.js, Flutter, Swift, PySpark, SQL, had expreience on project managerment.", "Enjoy traveling, photographying  spending time with my cat in my spare time.", "Willing to learn, take challenges, grow my skills and improve myself to a better level."],
+    "SECTION_TITLE": {
+      "ABOUT": "About Me",
+      "EX": "Experience",
+      "EDU": "Education",
+      "SKILL": "Skill & Abilities",
+      "WORK": "Works"
+    },
+    "EXS":[
+      {
+        "TIME": "2020 Dec - Now",
+        "JOB_TITLE": "Software Developer",
+        "COMPANY": "Zencher co.",
+        "DESCRIPTIONS": [
+          "Build web by VUE+Bootstrap",
+          "Build multi-platform app by Flutter",
+          "Build iOS App by Swift",
+          "Data processing by Python + SQL",
+          "Teach kids programing using swift playground",
+          "Work with backend guys on RESTful API",
+          "Work with client PM"
+        ]
+      },
+      {
+        "TIME": "2020 Feb - 2020 Dec",
+        "JOB_TITLE": "Bar Manager",
+        "COMPANY": "23 Comedy, 23Public",
+        "DESCRIPTIONS": [
+          "Manager the biggest comedy ba in Taiwan",
+          "Setup S.O.P.",
+          "Train and schedule employees",
+          "Purchase control and design menu",
+          "Plan event with comedians"
+        ]
+      },
+      {
+        "TIME": "2017 May - 2019 Dec",
+        "JOB_TITLE": "Owner & Partner",
+        "COMPANY": "Franchise buble tea shop x 3",
+        "DESCRIPTIONS": [
+          "Join a well-known tea brand",
+          "Setup S.O.P.",
+          "Hire, train and schedule employees",
+          "Purchase control",
+          "Find new customer",
+          "All 3 shops were in top 10 sales of that brand in Taiwan"
+        ]
+      },
+      {
+        "TIME": "2016 Apr - 2017 Apr",
+        "JOB_TITLE": "CPO",
+        "COMPANY": "Citi Bank Taiwan",
+        "DESCRIPTIONS": [
+          "Process trad and handling customer's requirements",
+          "1st rank score during my training batch"
+        ]
+      },
+      {
+        "TIME": "2013 Jan - 2014 Sep",
+        "JOB_TITLE": "Project Assistant",
+        "COMPANY": "Chang Gung Memorail Hospital",
+        "DESCRIPTIONS": [
+          "Handle a project of donation AED",
+          "Schedule training",
+          "Promote events",
+          "Write final report"
+        ]
+      }
+    ],
+    "EDUS": [
+      {
+        "TIME": "2008 Sep - 2012 Jun",
+        "DEPARTMENT": "Department of MultiMedia Design",
+        "SCHOOL": "National Formosa University",
+        "DESCRIPTIONS": ["Web-design、Graph-design、Anime、Programing"]
+      }
+    ]
+  }
