@@ -1,6 +1,6 @@
 <template lang="pug">
 #experienceAndEdu
-    img.w-100(src="https://picsum.photos/1100/300")
+    img.w-100(src="../assets/vietnam_halongbay.jpg")
     .p-3.container
         .row.py-5.text-start
             .col-12.col-md-6.p-1
