@@ -156,5 +156,30 @@
       "CODE": "https://github.com/shaynec25/memory_card_game",
       "ISAPP": true
     }
+  ],
+  "SE": [  {
+    "TIME": "2014 Nov - 2016 Apr",
+    "TITLE": "澳洲打工度假",
+    "LOCATION": "Australia",
+    "DESCRIPTIONS": [
+      "獨自規劃、前往澳洲打工度假",
+      "到Tasmania享受大自然",
+      "獨自到幾乎沒有華人的小鎮烘焙坊工作",
+      "靠著批次發email找到聖靈群島度假村工作"
+    ]
+  },
+    {
+      "TIME": "2012 Jun - 2012 Oct",
+      "TITLE": "美國打工度假",
+      "LOCATION": "Yellowstone National Park, USA",
+      "DESCRIPTIONS": [
+        "在黃石公園打工度假三個多月",
+        "下班後到處去Hiking",
+        "放假時和朋友一起到其他區遊玩",
+        "在沒有智慧型手機的時代，獨自規劃安排近一個月的美西自助旅行",
+        "從Vegas出發，去了大峽谷、聖地牙哥，一路向北玩",
+        "為了看極光前往阿拉斯加"
+      ]
+    }
   ]
 }

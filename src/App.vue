@@ -18,6 +18,7 @@ AboutView
 EnEView
 SkillView
 WorkView
+SpecailView
 </template>
 <script lang="ts">
 import { defineComponent } from "vue";
@@ -27,6 +28,7 @@ import AboutView from "@/views/AboutView.vue";
 import EnEView from "@/views/EnEView.vue";
 import SkillView from "@/views/SkillView.vue";
 import WorkView from "@/views/WorkView.vue";
+import SpecailView from "@/views/SpecialExperience.vue";
 
 export default defineComponent({
   components: {
@@ -36,33 +38,34 @@ export default defineComponent({
     EnEView,
     SkillView,
     WorkView,
+    SpecailView,
   },
   data() {
     return {
       isTop: true,
       navLists: [
         {
-          name: "Home",
-          path: "#home",
-        },
-        {
-          name: "About",
+          name: "About ",
           path: "#about",
         },
         {
-          name: "Experience_&_Education",
+          name: "Experience & Education ",
           path: "#experienceAndEdu",
         },
         {
-          name: "Skill",
+          name: "Skill ",
           path: "#skill",
         },
         {
-          name: "Works",
+          name: "Works ",
           path: "#works",
         },
         {
-          name: "Download_My_CV",
+          name: "Special Experience ",
+          path: "#specailExperience",
+        },
+        {
+          name: "Download MyCV ",
           path: "https://drive.google.com/uc?export=download&id=1icZVrE2vIzNF73tuznT6Rk7nlUQhGg59",
         },
       ],
