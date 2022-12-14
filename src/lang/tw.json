@@ -110,5 +110,51 @@
         "學習撰寫技術文件"
       ]
     }
+  ],
+  "WORKS":[
+    {
+      "TITLE": "作品集網頁",
+      "IMG": "works_1.jpg",
+      "DESCRIPTIONS": "使用 Vue 3 Cli, CSS, Bootstrap, SASS 及 Pug製作的網頁，支援RED及雙語切換。",
+      "CODE": "https://github.com/shaynec25/portfolio"
+    },
+    {
+      "TITLE": "商業網站",
+      "IMG": "works_2.jpg",
+      "DESCRIPTIONS": "參與團隊製作的網站，使用 Vue 2 Cli, CSS, Bootstrap，並有連接iOS APP的功能。",
+      "VIEW": "https://club.cubiio.com/"
+    },
+    {
+      "TITLE": "產品網頁範本",
+      "IMG": "works_3.jpg",
+      "DESCRIPTIONS": "使用 Vue 2 Cli, CSS, Bootstrap, SASS 及 Pug製作的網頁範本，支援雙語切換。",
+      "VIEW": "http://www.miniplan.net/#/home"
+    },
+    {
+      "TITLE": "考勤系統管理者網站",
+      "IMG": "works_4.jpg",
+      "DESCRIPTIONS": "使用 Vue 2 Cli, CSS, API, Bootstrap, SASS 及 Pug製作的網站，支援Google Sign In。",
+      "VIEW": "https://shaynec25.github.io/punch_in_out/index.html"
+    },
+    {
+      "TITLE": "考勤系統使用者APP",
+      "IMG": "works_5.gif",
+      "DESCRIPTIONS": "使用 Flutter 製作的多平台APP，讀取及寫入API來記錄打卡及排班狀態。",
+      "ISAPP": true
+    },
+    {
+      "TITLE": "寶可夢圖鑑範例APP",
+      "IMG": "works_6.gif",
+      "DESCRIPTIONS": "使用 Flutter 呼叫官方 API 的範例 APP，主要功能為 Listview 和 Card_Swiper。",
+      "CODE": "https://github.com/shaynec25/flutter_pokedex",
+      "ISAPP": true
+    },
+    {
+      "TITLE": "記憶力遊戲範例APP",
+      "IMG": "works_7.gif",
+      "DESCRIPTIONS": "使用 Flutter 製作的小型範例遊戲。",
+      "CODE": "https://github.com/shaynec25/memory_card_game",
+      "ISAPP": true
+    }
   ]
 }

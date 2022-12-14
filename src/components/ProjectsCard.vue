@@ -1,6 +1,7 @@
 <template lang="pug">
 .card.overflow-hidden
-  img(:src="img")
+  img.img-app(v-if="isApp" :src="require(`@/assets/img/${img}`)")
+  img.img-web(v-else :src="require(`@/assets/img/${img}`)")
   .card-img-overlay.p-0
     .card-info
       h4.card-title.pt-2 {{title}}
@@ -22,6 +23,7 @@ export default defineComponent({
     des: Array,
     view: String,
     code: String,
+    isApp: Boolean,
   },
 });
 </script>
@@ -36,7 +38,7 @@ export default defineComponent({
     color: #446647
 .card-info
   height: 300px
-  background-color: rgb(255 255 255 / 70%)
+  background-color: rgb(255 255 255 / 90%)
   position: relative
   top: 250px
   .card-title
@@ -48,4 +50,10 @@ export default defineComponent({
   .card-info
     top: 50px
     transition: all 0.5s ease 0s
+.img-app
+  object-fit: scale-down
+  height: 100%
+.img-web
+  object-fit: cover
+  height: 100%
 </style>

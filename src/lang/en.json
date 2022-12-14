@@ -1,6 +1,6 @@
 {
     "btn-lang": "中文",
-    "ABOUTS": ["2+ years frontend developerbased in Taipei, Taiwan.", "Working on webstie, App developerment and some data science.","Able to use Vue.js, Flutter, Swift, PySpark, SQL, had expreience on project managerment.", "Enjoy traveling, photographying  spending time with my cat in my spare time.", "Willing to learn, take challenges, grow my skills and improve myself to a better level."],
+    "ABOUTS": ["2+ years frontend developer based in Taipei, Taiwan.", "Working on webstie, App developerment and some data science.","Able to use Vue.js, Flutter, Swift, PySpark, SQL, had expreience on project managerment.", "Enjoy traveling, photographying  spending time with my cat in my spare time.", "Willing to learn, take challenges, grow my skills and improve myself to a better level."],
     "SECTION_TITLE": {
       "ABOUT": "About Me",
       "EX": "Experience",
@@ -114,39 +114,48 @@
     ],
     "WORKS":[
       {
-        "TITLE": "靜態網頁",
-        "IMG": "https://picsum.photos/200",
-        "DESCRIPTIONS": "Website Built Using Vue 2 Cli, CSS, Bootstrap, SASS And Pug.",
-        "VIEW": "https://jigarsable.netlify.app/projects/",
-        "CODE": "https://jigarsable.netlify.app/projects/"
+        "TITLE": "Portfolio Website",
+        "IMG": "works_1.jpg",
+        "DESCRIPTIONS": "Website Built Using Vue 3 Cli, CSS, Bootstrap, SASS And Pug. RWD and Bilingual Suportted.",
+        "CODE": "https://github.com/shaynec25/portfolio"
       },
       {
-        "TITLE": "靜態網頁",
-        "IMG": "https://picsum.photos/200",
-        "DESCRIPTIONS": "Website Built Using Vue 2 Cli, CSS, Bootstrap, SASS And Pug.",
-        "VIEW": "https://jigarsable.netlify.app/projects/",
-        "CODE": "https://jigarsable.netlify.app/projects/"
+        "TITLE": "Website",
+        "IMG": "works_2.jpg",
+        "DESCRIPTIONS": "a Team Work Website Built Using Vue 2 Cli, CSS, Bootstrap, Connection with iOS App.",
+        "VIEW": "https://club.cubiio.com/"
       },
       {
-        "TITLE": "靜態網頁",
-        "IMG": "https://picsum.photos/200",
-        "DESCRIPTIONS": "Website Built Using Vue 2 Cli, CSS, Bootstrap, SASS And Pug.",
-        "VIEW": "https://jigarsable.netlify.app/projects/",
-        "CODE": "https://jigarsable.netlify.app/projects/"
+        "TITLE": "Sample Product Website",
+        "IMG": "works_3.jpg",
+        "DESCRIPTIONS": "Website Built Using Vue 2 Cli, CSS, Bootstrap, SASS And Pug. Bilingual Suportted.",
+        "VIEW": "http://www.miniplan.net/#/home"
       },
       {
-        "TITLE": "靜態網頁",
-        "IMG": "https://picsum.photos/200",
-        "DESCRIPTIONS": "Website Built Using Vue 2 Cli, CSS, Bootstrap, SASS And Pug.",
-        "VIEW": "https://jigarsable.netlify.app/projects/",
-        "CODE": "https://jigarsable.netlify.app/projects/"
+        "TITLE": "Attendance Admin Web",
+        "IMG": "works_4.jpg",
+        "DESCRIPTIONS": "Website Built Using Vue 2 Cli, CSS, API, Bootstrap, SASS And Pug.",
+        "VIEW": "https://shaynec25.github.io/punch_in_out/index.html"
       },
       {
-        "TITLE": "靜態網頁",
-        "IMG": "https://picsum.photos/200",
-        "DESCRIPTIONS": "Website Built Using Vue 2 Cli, CSS, Bootstrap, SASS And Pug.",
-        "VIEW": "https://jigarsable.netlify.app/projects/",
-        "CODE": "https://jigarsable.netlify.app/projects/"
+        "TITLE": "Attendance User App",
+        "IMG": "works_5.gif",
+        "DESCRIPTIONS": "App Built Using Flutter, RESTful API.",
+        "ISAPP": true
+      },
+      {
+        "TITLE": "Pokemon Index App",
+        "IMG": "works_6.gif",
+        "DESCRIPTIONS": "App Built Using Flutter, Data from Offical API, Listview and Card_Swiper",
+        "CODE": "https://github.com/shaynec25/flutter_pokedex",
+        "ISAPP": true
+      },
+      {
+        "TITLE": "Memory Card Game App",
+        "IMG": "works_7.gif",
+        "DESCRIPTIONS": "Small Game App Built Using Flutter.",
+        "CODE": "https://github.com/shaynec25/memory_card_game",
+        "ISAPP": true
       }
     ]
   }
