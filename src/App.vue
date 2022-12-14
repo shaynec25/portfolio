@@ -4,14 +4,14 @@
     nav.navbar.navbar-expand-lg(:class="[isTop? 'navbar-dark': 'navbar-light']")
       .container-fluid
         a.navbar-brand(href='#') Shayne
-        button.menu-icon.navbar-toggler(type='button' data-bs-toggle='collapse' data-bs-target='#navbarNavAltMarkup' aria-controls='navbarNavAltMarkup' aria-expanded='false' aria-label='Toggle navigation')
+        button.menu-icon.navbar-toggler(type='button' data-bs-toggle='collapse' data-bs-target='#navbarOnMobile' aria-controls='navbarNavAltMarkup' aria-expanded='false' aria-label='Toggle navigation')
           span.navbar-toggler-icon
-        #navbarNavAltMarkup.collapse.navbar-collapse
+        #navbarOnMobile.collapse.navbar-collapse
           ul.navbar-nav.ms-auto
             li.nav-link(style="--bs-nav-link-font-size: 10px;" v-for="navItem in navLists")
-              a.d-none.d-lg-block(:href="navItem.path" :class="[isTop? 'text-light' : 'text-dark']" ) {{navItem.name}}
+              a.d-none.d-lg-block(:href="navItem.path" :class="[isTop? 'text-light' : 'text-dark']") {{navItem.name}}
               a.d-lg-none.text-light(:href="navItem.path") {{navItem.name}}
-            li.nav-link.btn.btn-lang(style="--bs-nav-link-font-size: 10px;" @click="setLang") {{$t('btn-lang')}}
+            li.nav-link.lang-text(style="--bs-nav-link-font-size: 10px;" @click="setLang") {{$t('btn-lang')}}
 Waypoint(@change="onchange")
   HomeView
 AboutView
@@ -58,8 +58,8 @@ export default defineComponent({
           path: "#skill",
         },
         {
-          name: "Work",
-          path: "#work",
+          name: "Works",
+          path: "#works",
         },
         {
           name: "Download_My_CV",
@@ -80,7 +80,7 @@ export default defineComponent({
     setLang() {
       let currentLang = localStorage.getItem("set-lang");
       localStorage.setItem("set-lang", currentLang == "tw" ? "en" : "tw");
-      this.$router.go(0);
+      location.reload();
     },
   },
 });
@@ -114,20 +114,17 @@ nav
 nav a
   text-decoration: none
   font-weight: bold
-.nav-right
-  position: absolute
-  top: 5px
-  right: 0px
-  padding-right: 1rem
-  // width: 400px
 .menu-icon
   border: none !important
 .bg-light-green
   background-color: #d8ddd4
 p
   color: #666
-
+.lang-text
+  color: #222
 @media (max-width: 992px)
   .collapse
     background: rgb(0 0 0 / 70%)
+    li
+      color: #ddd
 </style>
