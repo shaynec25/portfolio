@@ -6,7 +6,8 @@
       "EX": "Experience",
       "EDU": "Education",
       "SKILL": "Skill & Abilities",
-      "WORK": "Works"
+      "WORK": "Works",
+      "SE": "Special Experience"
     },
     "EXS":[
       {
@@ -129,7 +130,13 @@
         "TITLE": "Sample Product Website",
         "IMG": "works_3.jpg",
         "DESCRIPTIONS": "Website Built Using Vue 2 Cli, CSS, Bootstrap, SASS And Pug. Bilingual Suportted.",
-        "VIEW": "http://www.miniplan.net/#/home"
+        "VIEW": "http://www.miniplan.net/vue/#/"
+      },
+      {
+        "TITLE": "Sample Product Website",
+        "IMG": "works_8.jpg",
+        "DESCRIPTIONS": "Website Built Using Flutter",
+        "VIEW": "http://www.miniplan.net/"
       },
       {
         "TITLE": "Attendance Admin Web",
@@ -156,6 +163,34 @@
         "DESCRIPTIONS": "Small Game App Built Using Flutter.",
         "CODE": "https://github.com/shaynec25/memory_card_game",
         "ISAPP": true
+      }
+    ],
+    "SE": [  {
+      "TIME": "2014 Nov - 2016 Apr",
+      "TITLE": "Australia Working Holiday",
+      "LOCATION": "Australia",
+      "IMG": "tas.jpg",
+      "IMG_DES": "Aurora in Tasmania",
+      "DESCRIPTIONS": [
+        "Planed and scheduled everything alone.",
+        "Went to Tasmania and saw aurora.",
+        "Got job on Gumtree in a rural town, bought a car and moved by the weekend.",
+        "Got job in Whitsundays by sending emails to all resort searched on google."
+      ]
+    },
+      {
+        "TIME": "2012 Jun - 2012 Oct",
+        "TITLE": "USA Working Holiday",
+        "LOCATION": "Yellowstone National Park, USA",
+        "IMG": "yellowstone.jpg",
+        "IMG_DES": "Grand Prismatic Spring in YNP",
+        "DESCRIPTIONS": [
+          "Hiking and camping in spare time.",
+          "Made lots of friends from all over the world",
+          "Planed a month trip to west coast without smartphone that time.",
+          "From Vegas to Great Canyon, L.A., San Fransisco.",
+          "Went to Alaska for northern light."
+        ]
       }
     ]
   }

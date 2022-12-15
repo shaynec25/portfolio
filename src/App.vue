@@ -65,7 +65,7 @@ export default defineComponent({
           path: "#specailExperience",
         },
         {
-          name: "Download MyCV ",
+          name: "Download My CV ",
           path: "https://drive.google.com/uc?export=download&id=1icZVrE2vIzNF73tuznT6Rk7nlUQhGg59",
         },
       ],

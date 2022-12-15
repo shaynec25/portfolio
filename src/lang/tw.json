@@ -6,7 +6,8 @@
     "EX": "工作經驗",
     "EDU": "學歷",
     "SKILL": "技能 & 能力",
-    "WORK": "作品"
+    "WORK": "作品",
+    "SE": "其他經歷"
   },
   "EXS":[
     {
@@ -128,7 +129,13 @@
       "TITLE": "產品網頁範本",
       "IMG": "works_3.jpg",
       "DESCRIPTIONS": "使用 Vue 2 Cli, CSS, Bootstrap, SASS 及 Pug製作的網頁範本，支援雙語切換。",
-      "VIEW": "http://www.miniplan.net/#/home"
+      "VIEW": "http://www.miniplan.net/vue/#/"
+    },
+    {
+      "TITLE": "產品網頁",
+      "IMG": "works_8.jpg",
+      "DESCRIPTIONS": "使用 Flutter 製作的網頁範本，支援雙語切換。",
+      "VIEW": "http://www.miniplan.net/"
     },
     {
       "TITLE": "考勤系統管理者網站",
@@ -161,6 +168,8 @@
     "TIME": "2014 Nov - 2016 Apr",
     "TITLE": "澳洲打工度假",
     "LOCATION": "Australia",
+    "IMG": "tas.jpg",
+    "IMG_DES": "在Tasmania看到的南極光",
     "DESCRIPTIONS": [
       "獨自規劃、前往澳洲打工度假",
       "到Tasmania享受大自然",
@@ -172,6 +181,8 @@
       "TIME": "2012 Jun - 2012 Oct",
       "TITLE": "美國打工度假",
       "LOCATION": "Yellowstone National Park, USA",
+      "IMG": "yellowstone.jpg",
+      "IMG_DES": "爬上山頂看到的大稜鏡溫泉",
       "DESCRIPTIONS": [
         "在黃石公園打工度假三個多月",
         "下班後到處去Hiking",
