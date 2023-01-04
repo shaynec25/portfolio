@@ -1,14 +1,9 @@
 <template lang="pug">
 .card
   .card-body.py-3
-    h4.card-title {{title}}
-    p(v-if="subTitle") -
-    h6.card-subTitle(v-if="subTitle") {{subTitle}}
-    small.card-text.text-muted
-      ul.no-bullets
-        li(v-for="des in des") {{des}}
+    h6.card-title {{title}}
     a(:href="link" target="_blank")
-      img(v-if="img" :src="img")
+      img.img-fluid(v-if="img" :src="img")
 
 </template>
 
@@ -32,7 +27,7 @@ export default defineComponent({
   list-style-type: none
   padding: 0
 .card
-  min-height: 330px
+  min-height: 230px
   .card-title
     color: #446647
 .card:hover
@@ -40,7 +35,7 @@ export default defineComponent({
   transition: all 0.5s ease 0s
   .card-title
     color: #213d23
-img
-  object-fit: scale-down
+.certi
+  object-fit: cover
   height: 100%
 </style>

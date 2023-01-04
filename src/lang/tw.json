@@ -6,6 +6,7 @@
     "EX": "工作經驗",
     "EDU": "學歷",
     "SKILL": "技能 & 能力",
+    "CERTI": "證照",
     "WORK": "作品",
     "SE": "其他經歷"
   },
@@ -110,6 +111,18 @@
         "使用AI繪製向量圖檔等",
         "學習撰寫技術文件"
       ]
+    }
+  ],
+  "CERTIS":[
+    {
+      "TITLE": "Swift Associate",
+      "IMG": "https://images.credly.com/size/300x300/images/d9598c1a-2f59-49b9-b7fc-a764bf23b4d5/image.png",
+      "LINK": "https://www.credly.com/badges/c5c89cb8-7645-4057-a316-f5fa9422d40e/public_url"
+    },
+    {
+      "TITLE": "Swift Certified User",
+      "IMG": "https://images.credly.com/size/300x300/images/9b0ac7af-f7ac-4938-96a4-2d4805bfe23f/image.png",
+      "LINK": "https://www.credly.com/badges/5e6f7f78-d15b-4469-8cc9-7909180c8607/public_url"
     }
   ],
   "WORKS":[
