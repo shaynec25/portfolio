@@ -176,6 +176,14 @@
         "DESCRIPTIONS": "Small Game App Built Using Flutter.",
         "CODE": "https://github.com/shaynec25/memory_card_game",
         "ISAPP": true
+      },
+      {
+        "TITLE": "Vocabulry Card App",
+        "IMG": "works_9.gif",
+        "DESCRIPTIONS": "A Demo application shows vocabularies on Flutter app from Google Sheets and create new vocabulry into Google Sheets using Google Apps Script.",
+        "CODE": "https://github.com/shaynec25/vocab_card",
+        "VIEW": "https://shaynec25.github.io/demos/vocabulry-card/#/",
+        "ISAPP": true
       }
     ],
     "SE": [  {
