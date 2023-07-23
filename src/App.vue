@@ -66,7 +66,7 @@ export default defineComponent({
         },
         {
           name: "Download My CV ",
-          path: "https://drive.google.com/uc?export=download&id=1icZVrE2vIzNF73tuznT6Rk7nlUQhGg59",
+          path: "https://www.cakeresume.com/pdf/s--QskKZaNYLyopK9scS2EpUQ--/NGvW3.pdf",
         },
       ],
     };

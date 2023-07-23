@@ -1,6 +1,6 @@
 {
   "btn-lang": "EN",
-  "ABOUTS": ["兩年經驗的前端軟體開發工程師，", "現職工作中網頁、手機APP、資料處理都有接觸。","能使用Vue.js, Flutter, Swift, PySpark, SQL等相關技術並有專案管理經驗。", "閒暇時喜歡旅行、喜歡攝影、喜歡宅在家裡和貓大眼瞪小眼。", "曾任職於醫療、金融、餐飲業、自行創業經營。樂於學習新知、接受挑戰。"],
+  "ABOUTS": ["前端軟體開發工程師，","擁有Flutter, Swift, PySpark, SQL, VUE與專案管理等經驗。", "閒暇時喜歡旅行、喜歡攝影、喜歡宅在家裡和貓大眼瞪小眼。", "曾任職於醫療、金融、餐飲業、自行創業經營。樂於學習新知、接受挑戰。"],
   "SECTION_TITLE": {
     "ABOUT": "關於我",
     "EX": "工作經驗",
@@ -10,9 +10,21 @@
     "WORK": "作品",
     "SE": "其他經歷"
   },
-  "EXS":[
+  "EXS":[    
     {
-      "TIME": "2020 Dec - Now",
+      "TIME": "2023 May - Now",
+      "JOB_TITLE": "Flutter工程師 / PM",
+      "COMPANY": "干城數碼有限公司",
+      "DESCRIPTIONS": [
+        "在Acer IT部門駐點開發Flutter開發APP",
+        "串接GraphQL",
+        "團隊合作開發",
+        "專案管理",
+        "iOS/Android APP 上架與發布"
+      ]
+    },
+    {
+      "TIME": "2020 Dec - 2023 Apr",
       "JOB_TITLE": "軟體開發工程師",
       "COMPANY": "友教有限公司",
       "DESCRIPTIONS": [
@@ -86,9 +98,7 @@
       "DESCRIPTIONS": [
         "使用Vue + Bootstrap搭配JS製作可互動網頁",
         "串接API取得或寫入資料",
-        "使用Flutter開發多平台應用程式",
-        "使用Swift開發iOS App",
-        "學習使用Kotlin製作Android App"
+        "了解設計模式、狀態管理"
       ]
     },
     {
@@ -108,8 +118,7 @@
         "使用Git進行版本控管與合作開發",
         "使用Figma製作UI及prototype",
         "使用PS進行影像處理、去背等",
-        "使用AI繪製向量圖檔等",
-        "學習撰寫技術文件"
+        "使用AI繪製向量圖檔等"
       ]
     }
   ],
@@ -127,9 +136,15 @@
   ],
   "WORKS":[
     {
+      "TITLE": "Earth Mission APP",
+      "IMG": "earth_mission.jpg",
+      "DESCRIPTIONS": "與團隊合作開發的Flutter APP，使用Bloc做狀態管理，後端串接GraphQL。在App Store與Google Play Store中可以下載。",
+      "VIEW": "https://apps.apple.com/tw/app/earth-mission-app/id1633165996"
+    },
+    {
       "TITLE": "作品集網頁",
       "IMG": "works_1.jpg",
-      "DESCRIPTIONS": "使用 Vue 3 Cli, CSS, Bootstrap, SASS 及 Pug製作的網頁，支援RED及雙語切換。",
+      "DESCRIPTIONS": "使用 Vue 3 Cli, CSS, Bootstrap, SASS 及 Pug製作的網頁，支援RWD及雙語切換。",
       "CODE": "https://github.com/shaynec25/portfolio"
     },
     {
@@ -137,12 +152,6 @@
       "IMG": "works_2.jpg",
       "DESCRIPTIONS": "參與團隊製作的網站，使用 Vue 2 Cli, CSS, Bootstrap，並有連接iOS APP的功能。",
       "VIEW": "https://club.cubiio.com/"
-    },
-    {
-      "TITLE": "產品網頁範本",
-      "IMG": "works_3.jpg",
-      "DESCRIPTIONS": "使用 Vue 2 Cli, CSS, Bootstrap, SASS 及 Pug製作的網頁範本，支援雙語切換。",
-      "VIEW": "http://www.miniplan.net/vue/#/"
     },
     {
       "TITLE": "產品網頁",

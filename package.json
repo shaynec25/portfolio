@@ -19,7 +19,7 @@
     "vue": "^3.2.13",
     "vue-i18n": "^9.2.2",
     "vue-router": "^4.0.3",
-    "vue-vertical-timeline": "^0.1.0",
+    "vue-vertical-timeline": "^0.0.4",
     "vue-waypoint": "^4.2.5",
     "vue3-timeline": "^1.2.3",
     "vuex": "^4.0.0"

@@ -1,6 +1,6 @@
 {
     "btn-lang": "中文",
-    "ABOUTS": ["2+ years frontend developer based in Taipei, Taiwan.", "Working on website, App development and some data science.","Able to use Vue.js, Flutter, Swift, PySpark, SQL, had experience on project management.", "Enjoy traveling, photographing and spending time with my cat in my spare time.", "Willing to learn, take challenges, grow my skills and improve myself to a better level."],
+    "ABOUTS": ["Frontend developer based in Taipei, Taiwan.", "Flutter, Swift, PySpark, SQL, VUE, and experience on project management.", "Enjoy traveling, photographing and spending time with my cat in my spare time.", "Willing to learn, take challenges, grow my skills and improve myself to a better level."],
     "SECTION_TITLE": {
       "ABOUT": "About Me",
       "EX": "Experience",
@@ -12,17 +12,29 @@
     },
     "EXS":[
       {
-        "TIME": "2020 Dec - Now",
+        "TIME": "2023 May - Now",
+        "JOB_TITLE": "Flutter Developer / PM",
+        "COMPANY": "Consem ICT Inc. ",
+        "DESCRIPTIONS": [
+          "Stationed at Acer IT department developing mobile APP by Flutter",
+          "Integrating GraphQL",
+          "Collaborating with the team on development",
+          "Project management",
+          "Deploying and releasing iOS/Android apps"
+        ]
+      },
+      {
+        "TIME": "2020 Dec - 2023 Apr",
         "JOB_TITLE": "Software Developer",
         "COMPANY": "Zencher co.",
         "DESCRIPTIONS": [
-          "Build web by VUE+Bootstrap",
-          "Build multi-platform app by Flutter",
-          "Build iOS App by Swift",
-          "Data processing by Python + SQL",
-          "Teach kids programing using swift playground",
-          "Work with backend guys on RESTful API",
-          "Work with client PM"
+          "Developing web applications using VUE+Bootstrap",
+          "Developing cross-platform applications using Flutter",
+          "Creating iOS mobile apps using Swift",
+          "Processing data using Python + SQL",
+          "Teaching elementary school children programming languages",
+          "Collaborating with backend engineers using RESTful APIs",
+          "Coordinating with client project managers"
         ]
       },
       {
@@ -67,7 +79,7 @@
           "Handle a project of donation AED",
           "Schedule training",
           "Promote events",
-          "Write final report"
+          "Writing final report"
         ]
       }
     ],
@@ -87,9 +99,7 @@
         "DESCRIPTIONS": [
           "Using Vue + Bootstrap + JS to build website.",
           "Using RESTful API to get/set data.",
-          "Build multi-platform app by Flutter.",
-          "Build iOS App by Swift.",
-          "Learning Kotlin to build Android App."
+          "Knowledge of Design Pattern and State Management"
         ]
       },
       {
@@ -106,11 +116,10 @@
         "TITLE": "Others",
         "SUBTITLE": "Figma, Git, Photoshop, Illustrator",
         "DESCRIPTIONS": [
-          "Using Git for version control and work with others.",
+          "Using Git for version control and work with team.",
           "UI & prototype design by Figma.",
           "Basic image processing by PS.",
-          "Basic usage of AI.",
-          "Learning to write technical documentation."
+          "Basic usage of AI."
         ]
       }
     ],
@@ -128,6 +137,12 @@
     ],
     "WORKS":[
       {
+        "TITLE": "Earth Mission APP",
+        "IMG": "earth_mission.jpg",
+        "DESCRIPTIONS": "Collaborating with team to develop a Flutter app, using Flutter Bloc, graphQL. Available on Google Play Store and App Store",
+        "VIEW": "https://apps.apple.com/tw/app/earth-mission-app/id1633165996"
+      },
+      {
         "TITLE": "Portfolio Website",
         "IMG": "works_1.jpg",
         "DESCRIPTIONS": "Website Built Using Vue 3 Cli, CSS, Bootstrap, SASS And Pug. RWD and Bilingual Suportted.",
@@ -138,12 +153,6 @@
         "IMG": "works_2.jpg",
         "DESCRIPTIONS": "a Team Work Website Built Using Vue 2 Cli, CSS, Bootstrap, Connection with iOS App.",
         "VIEW": "https://club.cubiio.com/"
-      },
-      {
-        "TITLE": "Sample Product Website",
-        "IMG": "works_3.jpg",
-        "DESCRIPTIONS": "Website Built Using Vue 2 Cli, CSS, Bootstrap, SASS And Pug. Bilingual Suportted.",
-        "VIEW": "http://www.miniplan.net/vue/#/"
       },
       {
         "TITLE": "Sample Product Website",
