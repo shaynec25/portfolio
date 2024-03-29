@@ -1,6 +1,6 @@
 {
     "btn-lang": "中文",
-    "ABOUTS": ["Frontend developer based in Taipei, Taiwan.", "Flutter, Swift, PySpark, SQL, VUE, and experience on project management.", "Enjoy traveling, photographing and spending time with my cat in my spare time.", "Willing to learn, take challenges, grow my skills and improve myself to a better level."],
+    "ABOUTS": ["Mobile developer based in Taipei, Taiwan.", "Flutter, Swift, PySpark, SQL, VUE, and experience on project management.", "Enjoy traveling, photographing and spending time with my cat in my spare time.", "Willing to learn, take challenges, grow my skills and improve myself to a better level."],
     "SECTION_TITLE": {
       "ABOUT": "About Me",
       "EX": "Experience",
@@ -12,7 +12,18 @@
     },
     "EXS":[
       {
-        "TIME": "2023 May - Now",
+        "TIME": "2023 Nov - Now",
+        "JOB_TITLE": "Flutter Developer",
+        "COMPANY": "One Class Inc.",
+        "DESCRIPTIONS": [
+          "Developing Flutter apps from scratch",
+          "Collaborating with native iOS/Android developers on hybrid app development",
+          "Working closely with the team on development tasks",
+          "Deploying and releasing iOS/Android apps"
+        ]
+      },
+      {
+        "TIME": "2023 May - 2023 Nov",
         "JOB_TITLE": "Flutter Developer / PM",
         "COMPANY": "Consem ICT Inc. ",
         "DESCRIPTIONS": [
@@ -28,8 +39,8 @@
         "JOB_TITLE": "Software Developer",
         "COMPANY": "Zencher co.",
         "DESCRIPTIONS": [
-          "Developing web applications using VUE+Bootstrap",
           "Developing cross-platform applications using Flutter",
+          "Developing web applications using VUE+Bootstrap",
           "Creating iOS mobile apps using Swift",
           "Processing data using Python + SQL",
           "Teaching elementary school children programming languages",
@@ -52,7 +63,7 @@
       {
         "TIME": "2017 May - 2019 Dec",
         "JOB_TITLE": "Owner & Partner",
-        "COMPANY": "Franchise buble tea shop x 3",
+        "COMPANY": "Franchise bubble tea shop x 3",
         "DESCRIPTIONS": [
           "Join a well-known tea brand",
           "Setup S.O.P.",
@@ -74,7 +85,7 @@
       {
         "TIME": "2013 Jan - 2014 Sep",
         "JOB_TITLE": "Project Assistant",
-        "COMPANY": "Chang Gung Memorail Hospital",
+        "COMPANY": "Chang Gung Memorial Hospital",
         "DESCRIPTIONS": [
           "Handle a project of donation AED",
           "Schedule training",
@@ -88,18 +99,18 @@
         "TIME": "2008 Sep - 2012 Jun",
         "DEPARTMENT": "Department of MultiMedia Design",
         "SCHOOL": "National Formosa University",
-        "DESCRIPTIONS": ["Web-design、Graph-design、Anime、Programing"]
+        "DESCRIPTIONS": ["Web-design、Graph-design、Anime、Programming"]
       }
     ],
   
     "SKILLS": [
       {
         "TITLE": "Frontend",
-        "SUBTITLE": "Vue, Flutter, Swift, Kotlin, JS",
+        "SUBTITLE": "Flutter, Vue, Swift, Kotlin, JS",
         "DESCRIPTIONS": [
-          "Using Vue + Bootstrap + JS to build website.",
-          "Using RESTful API to get/set data.",
-          "Knowledge of Design Pattern and State Management"
+          "Understanding of Design Pattern and State Management(Bloc).",
+          "Using RESTful API/ Graphql to get/set data.",
+          "Building websites with Vue.js, Bootstrap, and JavaScript."
         ]
       },
       {
@@ -108,18 +119,17 @@
         "DESCRIPTIONS": [
           "Using python & SQL to do data process on Palantir.",
           "Learning using Vapor to build server-side DB.",
-          "Design RESTful API.",
-          "Learning GraphQL."
+          "Understanding of RESTful API."
         ]
       },
       {
         "TITLE": "Others",
-        "SUBTITLE": "Figma, Git, Photoshop, Illustrator",
+        "SUBTITLE": "Figma, Git, PhotoShop, Illustrator",
         "DESCRIPTIONS": [
           "Using Git for version control and work with team.",
           "UI & prototype design by Figma.",
-          "Basic image processing by PS.",
-          "Basic usage of AI."
+          "Basic image processing by PhotoShop.",
+          "Basic usage of Illustrator."
         ]
       }
     ],
@@ -136,6 +146,19 @@
       }
     ],
     "WORKS":[
+      {
+        "TITLE": "OneWordz APP",
+        "IMG": "one_wordz.png",
+        "DESCRIPTIONS": 
+        "A Flutter project developed from scratch, featuring in-app subscription functionality, utilizing Remote Config, and integrating AI chatbot.",
+        "VIEW": "https://play.google.com/store/apps/details?id=com.nani.OneWords"
+      },
+      {
+        "TITLE": "OneMMS APP",
+        "IMG": "one_mms.png",
+        "DESCRIPTIONS": "A Flutter project developed from scratch, integrating third-party real-time communication SDK for IM, push notification, and navigation functionalities.",
+        "VIEW": "https://play.google.com/store/apps/details?id=com.nani.mms"
+      },
       {
         "TITLE": "Earth Mission APP",
         "IMG": "earth_mission.jpg",
@@ -218,7 +241,7 @@
           "Hiking and camping in spare time.",
           "Made lots of friends from all over the world",
           "Planed a month trip to west coast without smartphone that time.",
-          "From Vegas to Great Canyon, L.A., San Fransisco.",
+          "From Vegas to Great Canyon, L.A., San Francisco.",
           "Went to Alaska for northern light."
         ]
       }

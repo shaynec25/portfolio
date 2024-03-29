@@ -1,6 +1,6 @@
 {
   "btn-lang": "EN",
-  "ABOUTS": ["前端軟體開發工程師，","擁有Flutter, Swift, PySpark, SQL, VUE與專案管理等經驗。", "閒暇時喜歡旅行、喜歡攝影、喜歡宅在家裡和貓大眼瞪小眼。", "曾任職於醫療、金融、餐飲業、自行創業經營。樂於學習新知、接受挑戰。"],
+  "ABOUTS": ["來自台灣的APP工程師，","擁有Flutter, Swift, PySpark, SQL, VUE與專案管理等經驗。", "閒暇時喜歡旅行、喜歡攝影、喜歡宅在家裡和貓大眼瞪小眼。", "曾任職於醫療、金融、餐飲業、自行創業經營。樂於學習新知、接受挑戰。"],
   "SECTION_TITLE": {
     "ABOUT": "關於我",
     "EX": "工作經驗",
@@ -10,9 +10,20 @@
     "WORK": "作品",
     "SE": "其他經歷"
   },
-  "EXS":[    
+  "EXS":[  
     {
-      "TIME": "2023 May - Now",
+      "TIME": "2023 Nov - Now",
+      "JOB_TITLE": "高級工程師",
+      "COMPANY": "南一書局/萬通教育有限公司",
+      "DESCRIPTIONS": [
+        "Flutter APP 專案啟動與開發",
+        "與原生(iOS/Android)工程師合作開發混生APP",
+        "團隊合作開發",
+        "iOS/Android APP 上架與發布"
+      ]
+    },  
+    {
+      "TIME": "2023 May - 2023 Nov",
       "JOB_TITLE": "Flutter工程師 / PM",
       "COMPANY": "干城數碼有限公司",
       "DESCRIPTIONS": [
@@ -28,8 +39,8 @@
       "JOB_TITLE": "軟體開發工程師",
       "COMPANY": "友教有限公司",
       "DESCRIPTIONS": [
-        "使用VUE+Bootstrap開發網頁",
         "使用Flutter開發多平台應用程式",
+        "使用VUE+Bootstrap開發網頁",
         "使用Swift開發iOS手機APP",
         "使用Python + SQL進行資料處理",
         "教導國小學童學習程式語言",
@@ -96,9 +107,9 @@
       "TITLE": "Frontend",
       "SUBTITLE": "Vue, Flutter, Swift, Kotlin, JS",
       "DESCRIPTIONS": [
-        "使用Vue + Bootstrap搭配JS製作可互動網頁",
-        "串接API取得或寫入資料",
-        "了解設計模式、狀態管理"
+        "了解設計模式、狀態管理(Bloc)",
+        "串接Restful API / GraphQL 取得或寫入資料",
+        "使用Vue + Bootstrap搭配JS製作可互動網頁"
       ]
     },
     {
@@ -107,18 +118,17 @@
       "DESCRIPTIONS": [
         "Palantir平台上使用python及SQL語法進行資料處理及驗證",
         "學習使用Vapor建置Server-side DB",
-        "設定RESTful API",
-        "學習GraphQL"
+        "設定RESTful API"
       ]
     },
     {
       "TITLE": "Others",
-      "SUBTITLE": "Figma, Git, Photoshop, Illustrator",
+      "SUBTITLE": "Figma, Git, PhotoShop, Illustrator",
       "DESCRIPTIONS": [
         "使用Git進行版本控管與合作開發",
         "使用Figma製作UI及prototype",
-        "使用PS進行影像處理、去背等",
-        "使用AI繪製向量圖檔等"
+        "使用PhotoShop進行影像處理、去背等",
+        "使用Illustrator繪製向量圖檔等"
       ]
     }
   ],
@@ -135,6 +145,18 @@
     }
   ],
   "WORKS":[
+    {
+      "TITLE": "OneWordz APP",
+      "IMG": "one_wordz.png",
+      "DESCRIPTIONS": "從頭開發的Flutter專案，具有APP訂閱功能，使用Remote Config及串接AI機器人",
+      "VIEW": "https://play.google.com/store/apps/details?id=com.nani.OneWords"
+    },
+    {
+      "TITLE": "OneMMS APP",
+      "IMG": "one_mms.png",
+      "DESCRIPTIONS": "從頭開發的Flutter專案，串接第三方即時通訊SDK，推播通知及導頁功能。",
+      "VIEW": "https://play.google.com/store/apps/details?id=com.nani.mms"
+    },
     {
       "TITLE": "Earth Mission APP",
       "IMG": "earth_mission.jpg",
