@@ -194,20 +194,6 @@
       "ISAPP": true
     },
     {
-      "TITLE": "寶可夢圖鑑範例APP",
-      "IMG": "works_6.gif",
-      "DESCRIPTIONS": "使用 Flutter 呼叫官方 API 的範例 APP，主要功能為 Listview 和 Card_Swiper。",
-      "CODE": "https://github.com/shaynec25/flutter_pokedex",
-      "ISAPP": true
-    },
-    {
-      "TITLE": "記憶力遊戲範例APP",
-      "IMG": "works_7.gif",
-      "DESCRIPTIONS": "使用 Flutter 製作的小型範例遊戲。",
-      "CODE": "https://github.com/shaynec25/memory_card_game",
-      "ISAPP": true
-    },
-    {
       "TITLE": "單字卡 App",
       "IMG": "works_9.gif",
       "DESCRIPTIONS": "使用Flutter 和 Google Apps Script 製作的APP，讓使用者可以顯示Google Sheets上記錄的單字。並且可以建立上傳新的單字到Google Sheets上。",
