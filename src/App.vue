@@ -18,7 +18,7 @@ AboutView
 EnEView
 SkillView
 WorkView
-SpecailView
+SpecialView
 </template>
 <script lang="ts">
 import { defineComponent } from "vue";
@@ -28,7 +28,7 @@ import AboutView from "@/views/AboutView.vue";
 import EnEView from "@/views/EnEView.vue";
 import SkillView from "@/views/SkillView.vue";
 import WorkView from "@/views/WorkView.vue";
-import SpecailView from "@/views/SpecialExperience.vue";
+import SpecialView from "@/views/SpecialExperience.vue";
 
 export default defineComponent({
   components: {
@@ -38,7 +38,7 @@ export default defineComponent({
     EnEView,
     SkillView,
     WorkView,
-    SpecailView,
+    SpecialView: SpecialView,
   },
   data() {
     return {
@@ -62,11 +62,11 @@ export default defineComponent({
         },
         {
           name: "Special Experience ",
-          path: "#specailExperience",
+          path: "#specialExperience",
         },
         {
-          name: "Download My CV ",
-          path: "https://www.cakeresume.com/pdf/s--QskKZaNYLyopK9scS2EpUQ--/NGvW3.pdf",
+          name: "Download My Resume ",
+          path: "https://www.cakeresume.com/pdf/s--Yq9jaH6ifOAQi4J0SrK4NQ--/y6MAk.pdf",
         },
       ],
     };

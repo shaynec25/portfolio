@@ -19,7 +19,7 @@ export default defineComponent({
     return {
       typeText: [
         "I am...",
-        "a Front-end Developer,",
+        "a Flutter Developer,",
         "a Traveler,",
         "a Cat Lover,",
         "and more...",
