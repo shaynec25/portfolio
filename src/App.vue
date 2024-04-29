@@ -66,7 +66,7 @@ export default defineComponent({
         },
         {
           name: "Download My Resume ",
-          path: "https://www.cakeresume.com/pdf/s--Yq9jaH6ifOAQi4J0SrK4NQ--/y6MAk.pdf",
+          path: "https://www.cakeresume.com/pdf/s--sLpAuKkJ0oryeDeCKNcxNA--/ZkVDB.pdf",
         },
       ],
     };
