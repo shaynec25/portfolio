@@ -12,8 +12,18 @@
     },
     "EXS":[
       {
-        "TIME": "2023 Nov - Now",
+        "TIME": "2024 Jun - Now",
         "JOB_TITLE": "Flutter Developer",
+        "COMPANY": "BUYANDSHIP LIMITED Taiwan",
+        "DESCRIPTIONS": [
+          "Flutter APP Developing",
+          "Riverpod as state management",
+          " Working with Global Teams"
+        ]
+      },  
+      {
+        "TIME": "2023 Nov - 2024 Apr",
+        "JOB_TITLE": "Senior Flutter Developer",
         "COMPANY": "One Class Inc.",
         "DESCRIPTIONS": [
           "Developing Flutter apps from scratch",
@@ -49,21 +59,9 @@
         ]
       },
       {
-        "TIME": "2020 Feb - 2020 Dec",
-        "JOB_TITLE": "Bar Manager",
-        "COMPANY": "23 Comedy, 23Public",
-        "DESCRIPTIONS": [
-          "Manager the biggest comedy ba in Taiwan",
-          "Setup S.O.P.",
-          "Train and schedule employees",
-          "Purchase control and design menu",
-          "Plan event with comedians"
-        ]
-      },
-      {
-        "TIME": "2017 May - 2019 Dec",
-        "JOB_TITLE": "Owner & Partner",
-        "COMPANY": "Franchise bubble tea shop x 3",
+        "TIME": "2017 May - 2020 Dec",
+        "JOB_TITLE": "F&B Owner & Partner, Manager",
+        "COMPANY": "Franchise bubble tea shop x 3, 23 Comedy Bar, 23Public",
         "DESCRIPTIONS": [
           "Join a well-known tea brand",
           "Setup S.O.P.",
@@ -108,8 +106,8 @@
         "TITLE": "Frontend",
         "SUBTITLE": "Flutter, Vue, Swift, Kotlin, JS",
         "DESCRIPTIONS": [
-          "Understanding of Design Pattern and State Management(Bloc).",
-          "Using RESTful API/ Graphql to get/set data.",
+          "Understanding of Design Pattern and State Management(Bloc, Riverpod).",
+          "Using RESTful API/ GraphQL to get/set data.",
           "Building websites with Vue.js, Bootstrap, and JavaScript."
         ]
       },

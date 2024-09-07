@@ -10,9 +10,19 @@
     "WORK": "作品",
     "SE": "其他經歷"
   },
-  "EXS":[  
+  "EXS":[
     {
-      "TIME": "2023 Nov - Now",
+      "TIME": "2024 Jun - Now",
+      "JOB_TITLE": "Flutter工程師",
+      "COMPANY": "香港商易購全球有限公司台灣分公司",
+      "DESCRIPTIONS": [
+        "Flutter APP 開發",
+        "Riverpod狀態管理",
+        "跨國團隊協作"
+      ]
+    },    
+    {
+      "TIME": "2023 Nov - 2024 Apr",
       "JOB_TITLE": "高級工程師",
       "COMPANY": "南一書局/萬通教育有限公司",
       "DESCRIPTIONS": [
@@ -49,28 +59,17 @@
       ]
     },
     {
-      "TIME": "2020 Feb - 2020 Dec",
-      "JOB_TITLE": "店長",
-      "COMPANY": "二十三號藝文、啤研所股份有限公司",
-      "DESCRIPTIONS": [
-        "擔任全台最大中英文站立喜劇酒吧店經理",
-        "制定店內各項標準作業流程",
-        "訓練員工及排班",
-        "控管進貨及調整菜單",
-        "與活動企劃討論安排活動"
-      ]
-    },
-    {
-      "TIME": "2017 May - 2019 Dec",
-      "JOB_TITLE": "合夥人與實際經營者",
-      "COMPANY": "台北市知名加盟手搖飲料店 x 3",
+      "TIME": "2017 May - 2020 Dec",
+      "JOB_TITLE": "餐飲業店經理",
+      "COMPANY": "台北市知名加盟手搖飲料店 x 3、二十三號藝文、啤研所股份有限公司",
       "DESCRIPTIONS": [
         "加盟知名手搖飲料店，評估人流決定地點",
         "制定店內各項標準作業流程",
         "雇用、訓練員工及排班",
         "控管進出貨",
         "開發、維護客源",
-        "三家店均為該品牌當時全台月營業額前十"
+        "三家店均為該品牌當時全台月營業額前十",
+        "與活動企劃討論安排活動"
       ]
     },
     {
@@ -107,7 +106,7 @@
       "TITLE": "Frontend",
       "SUBTITLE": "Vue, Flutter, Swift, Kotlin, JS",
       "DESCRIPTIONS": [
-        "了解設計模式、狀態管理(Bloc)",
+        "了解設計模式、狀態管理(Bloc, Riverpod)",
         "串接Restful API / GraphQL 取得或寫入資料",
         "使用Vue + Bootstrap搭配JS製作可互動網頁"
       ]
