@@ -12,13 +12,14 @@
     },
     "EXS":[
       {
-        "TIME": "2024 Jun - Now",
+        "TIME": "2024 Jun - Present",
         "JOB_TITLE": "Flutter Developer",
-        "COMPANY": "BUYANDSHIP LIMITED Taiwan",
+        "COMPANY": "Current Company",
         "DESCRIPTIONS": [
-          "Flutter APP Developing",
-          "Riverpod as state management",
-          " Working with Global Teams"
+            "Developing e-commerce Flutter app using Riverpod and Bloc for state management",
+            "Handled API requests with Dio",
+            "Wrote widget and unit tests; used Appium for automation testing"
+            "Used Firebase Remote Config and A/B Testing"
         ]
       },  
       {
