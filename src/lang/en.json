@@ -18,7 +18,7 @@
         "DESCRIPTIONS": [
             "Developing e-commerce Flutter app using Riverpod and Bloc for state management",
             "Handled API requests with Dio",
-            "Wrote widget and unit tests; used Appium for automation testing"
+            "Wrote widget and unit tests; used Appium for automation testing",
             "Used Firebase Remote Config and A/B Testing"
         ]
       },  
