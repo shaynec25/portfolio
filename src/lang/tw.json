@@ -12,13 +12,13 @@
   },
   "EXS":[
     {
-      "TIME": "2024 Jun - Now",
+      "TIME": "2024 Jun - 現職",
       "JOB_TITLE": "Flutter工程師",
-      "COMPANY": "香港商易購全球有限公司台灣分公司",
+      "COMPANY": "現職公司",
       "DESCRIPTIONS": [
-        "Flutter APP 開發",
-        "Riverpod狀態管理",
-        "跨國團隊協作"
+        "開發電商Flutter App，狀態管理使用Riverpod與BLoc。透過Dio處理API請求",
+        "撰寫Widget Test與Unit Test​，了解Appium自動化測試",
+        "Firebase Remote Config 與A/B Testing"
       ]
     },    
     {
