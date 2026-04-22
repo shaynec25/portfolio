@@ -26,8 +26,11 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Deploy to GitHub Pages
+      - name: Deploy to shaynec25.github.io
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          personal_token: ${{ secrets.DEPLOY_TOKEN }}
+          external_repository: shaynec25/shaynec25.github.io
+          publish_branch: master
           publish_dir: ./dist
+          destination_dir: shayne
