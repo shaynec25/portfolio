@@ -2,13 +2,10 @@
 .card
   .card-body.py-3
     h4.card-title {{title}}
-    p(v-if="subTitle") -
     h6.card-subTitle(v-if="subTitle") {{subTitle}}
     small.card-text.text-muted
-      ul.no-bullets
+      ul.skill-list
         li(v-for="des in des") {{des}}
-    a(:href="link" target="_blank")
-      img(v-if="img" :src="img")
 
 </template>
 
@@ -28,10 +25,8 @@ export default defineComponent({
 </script>
 
 <style lang="sass" scoped>
-.no-bullets
-  list-style-type: none
-  padding: 0
 .card
+  width: 100%
   min-height: 330px
   .card-title
     color: #446647
@@ -40,7 +35,10 @@ export default defineComponent({
   transition: all 0.5s ease 0s
   .card-title
     color: #213d23
-img
-  object-fit: scale-down
-  height: 100%
+.skill-list
+  list-style-type: disc
+  padding-left: 1.2rem
+  text-align: left
+  li
+    padding: 0.2rem 0
 </style>

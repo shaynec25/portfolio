@@ -101,36 +101,36 @@
       "DESCRIPTIONS": ["網頁設計、平面設計、動畫設計、電腦程式語法"]
     }
   ],
-  "SKILLS": [
-    {
-      "TITLE": "Frontend",
-      "SUBTITLE": "Vue, Flutter, Swift, Kotlin, JS",
-      "DESCRIPTIONS": [
-        "了解設計模式、狀態管理(Bloc, Riverpod)",
-        "串接Restful API / GraphQL 取得或寫入資料",
-        "使用Vue + Bootstrap搭配JS製作可互動網頁"
-      ]
-    },
-    {
-      "TITLE": "Backend & Data",
-      "SUBTITLE": "Python, MySQL",
-      "DESCRIPTIONS": [
-        "Palantir平台上使用python及SQL語法進行資料處理及驗證",
-        "學習使用Vapor建置Server-side DB",
-        "設定RESTful API"
-      ]
-    },
-    {
-      "TITLE": "Others",
-      "SUBTITLE": "Figma, Git, PhotoShop, Illustrator",
-      "DESCRIPTIONS": [
-        "使用Git進行版本控管與合作開發",
-        "使用Figma製作UI及prototype",
-        "使用PhotoShop進行影像處理、去背等",
-        "使用Illustrator繪製向量圖檔等"
-      ]
-    }
-  ],
+"SKILLS": [
+  {
+    "TITLE": "行動開發 (Flutter Development)",
+    "SUBTITLE": "Flutter, Dart, Swift, Kotlin, Riverpod, BLoC",
+    "DESCRIPTIONS": [
+      "運用 BLoC/Cubit 與 Riverpod 處理複雜業務邏輯。",
+      "了解依賴注入 (injectable) 與模組化開發概念，並能封裝高複用性組件（如分頁邏輯）。",
+      "熟悉 RESTful API 整合，並具備處理多樣化異步數據與文件更新檢查之實務經驗。",
+      "具備與後端團隊協作定義 API 規格及處理複雜資料結構之能力。"
+    ]
+  },
+  {
+    "TITLE": "AI 輔助開發與工程實務",
+    "SUBTITLE": "AI Tools, Custom Lint, Git, CI/CD",
+    "DESCRIPTIONS": [
+      "善於運用 Cursor 與 GitHub Copilot 等 AI 工具輔助程式碼重構、Debug 及邏輯撰寫。",
+      "了解並曾實作 custom_lint 自定義規則，協助團隊落實程式碼撰寫標準。",
+      "熟悉 Git 版本控制與 Agile 開發流程，並了解行動端 CI/CD 自動化部署基本概念。"
+    ]
+  },
+  {
+    "TITLE": "專案執行與跨領域協作",
+    "SUBTITLE": "Project Execution, Figma, UI/UX Implementation",
+    "DESCRIPTIONS": [
+      "具備多個專案從零到一開發經驗，負責過購物車、結帳流程及訂單管理等核心模組。",
+      "擁有多媒體設計背景，能精準還原 Figma 設計細節，並與設計師高效溝通技術實作。",
+      "具備獨立解決開發問題的能力，並持續關注 Flutter 社群新技術與 AI 應用趨勢。"
+    ]
+  }
+],
   "CERTIS":[
     {
       "TITLE": "Swift Associate",
@@ -148,6 +148,20 @@
     }
   ],
   "WORKS":[
+    {
+      "TITLE": "Collect2Day APP",
+      "IMG": "collect2day.png",
+      "DESCRIPTIONS": 
+      "從頭開始的 Flutter 專案，採用 Riverpod 進行狀態管理。負責購物車與結帳、訂單等功能開發。",
+      "VIEW": "https://apps.apple.com/tw/app/collect2day-%E8%B2%B7%E9%81%8D%E5%85%A8%E7%90%83%E6%94%B6%E8%97%8F/id6737769092"
+    },
+    {
+      "TITLE": "Buy & Ship APP",
+      "IMG": "buynship.png",
+      "DESCRIPTIONS": 
+      "主要負責開發Trending Merchant功能，並主導部分重構，將分頁功能抽為可重複使用的元件，提升開發效率。",
+      "VIEW": "https://apps.apple.com/tw/app/buy-ship/id1474193162"
+    },
     {
       "TITLE": "OneWordz APP",
       "IMG": "one_wordz.png",
@@ -171,24 +185,6 @@
       "IMG": "works_1.jpg",
       "DESCRIPTIONS": "使用 Vue 3 Cli, CSS, Bootstrap, SASS 及 Pug製作的網頁，支援RWD及雙語切換。",
       "CODE": "https://github.com/shaynec25/portfolio"
-    },
-    {
-      "TITLE": "商業網站",
-      "IMG": "works_2.jpg",
-      "DESCRIPTIONS": "參與團隊製作的網站，使用 Vue 2 Cli, CSS, Bootstrap，並有連接iOS APP的功能。",
-      "VIEW": "https://club.cubiio.com/"
-    },
-    {
-      "TITLE": "產品網頁",
-      "IMG": "works_8.jpg",
-      "DESCRIPTIONS": "使用 Flutter 製作的網頁範本，支援雙語切換。",
-      "VIEW": "http://www.miniplan.net/"
-    },
-    {
-      "TITLE": "考勤系統管理者網站",
-      "IMG": "works_4.jpg",
-      "DESCRIPTIONS": "使用 Vue 2 Cli, CSS, API, Bootstrap, SASS 及 Pug製作的網站，支援Google Sign In。",
-      "VIEW": "https://shaynec25.github.io/punch_in_out/index.html"
     },
     {
       "TITLE": "考勤系統使用者APP",

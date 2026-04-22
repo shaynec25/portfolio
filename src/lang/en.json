@@ -102,36 +102,36 @@
       }
     ],
   
-    "SKILLS": [
-      {
-        "TITLE": "Frontend",
-        "SUBTITLE": "Flutter, Vue, Swift, Kotlin, JS",
-        "DESCRIPTIONS": [
-          "Understanding of Design Pattern and State Management(Bloc, Riverpod).",
-          "Using RESTful API/ GraphQL to get/set data.",
-          "Building websites with Vue.js, Bootstrap, and JavaScript."
-        ]
-      },
-      {
-        "TITLE": "Backend & Data",
-        "SUBTITLE": "Python, MySQL",
-        "DESCRIPTIONS": [
-          "Using python & SQL to do data process on Palantir.",
-          "Learning using Vapor to build server-side DB.",
-          "Understanding of RESTful API."
-        ]
-      },
-      {
-        "TITLE": "Others",
-        "SUBTITLE": "Figma, Git, PhotoShop, Illustrator",
-        "DESCRIPTIONS": [
-          "Using Git for version control and work with team.",
-          "UI & prototype design by Figma.",
-          "Basic image processing by PhotoShop.",
-          "Basic usage of Illustrator."
-        ]
-      }
-    ],
+   "SKILLS": [
+  {
+    "TITLE": "Mobile Development (Flutter Focus)",
+    "SUBTITLE": "Flutter, Dart, Swift, Kotlin, Riverpod, BLoC",
+    "DESCRIPTIONS": [
+      "Skilled in applying BLoC/Cubit and Riverpod for complex business logic.",
+      "Knowledge of dependency injection (injectable) and modular development; capable of building reusable components (e.g., shared pagination logic).",
+      "Skilled in RESTful API integration and experienced in handling asynchronous data processing and file update checks.",
+      "Ability to collaborate with backend teams to define API specifications and handle complex data structures."
+    ]
+  },
+  {
+    "TITLE": "AI-Augmented Development & Engineering",
+    "SUBTITLE": "AI Tools, Custom Lint, Git, CI/CD",
+    "DESCRIPTIONS": [
+      "Proficient in using AI tools like Cursor and GitHub Copilot for code refactoring, debugging, and logic implementation.",
+      "Understanding of custom_lint for creating custom rules to maintain code quality and team standards.",
+      "Familiar with Git version control, Agile workflows, and basic concepts of mobile CI/CD automation."
+    ]
+  },
+  {
+    "TITLE": "Project Execution & Cross-functional Collaboration",
+    "SUBTITLE": "Project Execution, Figma, UI/UX Implementation",
+    "DESCRIPTIONS": [
+      "Experienced in developing projects from scratch, specifically responsible for core modules like Shopping Cart, Checkout, and Orders.",
+      "Background in Multimedia Design, enabling high-fidelity UI implementation from Figma and effective communication with designers.",
+      "Proven ability to solve technical challenges independently and stay updated with Flutter community trends and AI technologies."
+    ]
+  }
+],
     "CERTIS":[
       {
         "TITLE": "Swift Associate",
@@ -145,10 +145,24 @@
       },
       {
         "TITLE": "Language Skills",
-        "ITEMS": ["Chinese: Native", "English: TOEIC 925"]
+        "ITEMS": ["Chinese: Native", "English: TOEIC Listening and Reading 925"]
       }
     ],
     "WORKS":[
+      {
+        "TITLE": "Collect2Day APP",
+        "IMG": "collect2day.png",
+        "DESCRIPTIONS": 
+        "Developed a Flutter application from scratch, implementing core Shopping Cart, Checkout, and Order modules using Riverpod for state management.",
+        "VIEW": "https://apps.apple.com/tw/app/collect2day-%E8%B2%B7%E9%81%8D%E5%85%A8%E7%90%83%E6%94%B6%E8%97%8F/id6737769092"
+      },
+      {
+        "TITLE": "Buy & Ship APP",
+        "IMG": "buynship.png",
+        "DESCRIPTIONS": 
+        "Developed the Trending Merchant feature and refactored pagination logic into reusable components within a 4-person team.",
+        "VIEW": "https://apps.apple.com/tw/app/buy-ship/id1474193162"
+      },
       {
         "TITLE": "OneWordz APP",
         "IMG": "one_wordz.png",
@@ -173,24 +187,6 @@
         "IMG": "works_1.jpg",
         "DESCRIPTIONS": "Website Built Using Vue 3 Cli, CSS, Bootstrap, SASS And Pug. RWD and Bilingual Supported.",
         "CODE": "https://github.com/shaynec25/portfolio"
-      },
-      {
-        "TITLE": "Website",
-        "IMG": "works_2.jpg",
-        "DESCRIPTIONS": "a Team Work Website Built Using Vue 2 Cli, CSS, Bootstrap, Connection with iOS App.",
-        "VIEW": "https://club.cubiio.com/"
-      },
-      {
-        "TITLE": "Sample Product Website",
-        "IMG": "works_8.jpg",
-        "DESCRIPTIONS": "Website Built Using Flutter",
-        "VIEW": "http://www.miniplan.net/"
-      },
-      {
-        "TITLE": "Attendance Admin Web",
-        "IMG": "works_4.jpg",
-        "DESCRIPTIONS": "Website Built Using Vue 2 Cli, CSS, API, Bootstrap, SASS And Pug.",
-        "VIEW": "https://shaynec25.github.io/punch_in_out/index.html"
       },
       {
         "TITLE": "Attendance User App",

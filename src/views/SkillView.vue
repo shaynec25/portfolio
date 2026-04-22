@@ -3,11 +3,11 @@
   .container
     .row.py-5.p-3
       h1 {{ $t("SECTION_TITLE.SKILL")}}
-      div(v-for="skill in $tm('SKILLS')").col-12.col-md-4.my-3
+      div(v-for="skill in $tm('SKILLS')").col-12.col-md-4.my-3.d-flex
         SkillCard(:title="skill.TITLE" :subTitle="skill.SUBTITLE" :des="skill.DESCRIPTIONS")
     .row.pb-5.p-3
       h1 {{ $t("SECTION_TITLE.CERTI")}}
-      div(v-for="certi in $tm('CERTIS')").col-6.col-md-3.my-3
+      div(v-for="certi in $tm('CERTIS')").col-6.col-md-3.my-3.d-flex
         CertiCard(:title="certi.TITLE" :img="certi.IMG" :link="certi.LINK" :items="certi.ITEMS")
 
 </template>

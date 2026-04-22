@@ -30,6 +30,7 @@ export default defineComponent({
   list-style-type: none
   padding: 0
 .card
+  width: 100%
   min-height: 230px
   .card-title
     color: #446647
@@ -42,15 +43,12 @@ export default defineComponent({
   object-fit: cover
   height: 100%
 .lang-list
-  list-style-type: none
-  padding: 0
+  list-style-type: disc
+  padding-left: 1.2rem
   margin-top: 0.8rem
   text-align: left
   li
     font-size: 0.95rem
     color: #446647
-    padding: 0.3rem 0
-    border-bottom: 1px solid #d8ddd4
-    &:last-child
-      border-bottom: none
+    padding: 0.2rem 0
 </style>
