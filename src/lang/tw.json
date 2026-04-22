@@ -6,7 +6,7 @@
     "EX": "工作經驗",
     "EDU": "學歷",
     "SKILL": "技能 & 能力",
-    "CERTI": "證照",
+    "CERTI": "證照 & 語言能力",
     "WORK": "作品",
     "SE": "其他經歷"
   },
@@ -141,6 +141,10 @@
       "TITLE": "Swift Certified User",
       "IMG": "https://images.credly.com/size/300x300/images/9b0ac7af-f7ac-4938-96a4-2d4805bfe23f/image.png",
       "LINK": "https://www.credly.com/badges/5e6f7f78-d15b-4469-8cc9-7909180c8607/public_url"
+    },
+    {
+      "TITLE": "語言能力",
+      "ITEMS": ["中文：母語", "英文：TOEIC 925"]
     }
   ],
   "WORKS":[

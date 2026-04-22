@@ -1,6 +1,5 @@
 import { createRouter, createWebHashHistory, RouteRecordRaw } from "vue-router";
 import HomeView from "../views/HomeView.vue";
-import AboutView from "../views/AboutView.vue";
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -8,22 +7,11 @@ const routes: Array<RouteRecordRaw> = [
     name: "home",
     component: HomeView,
   },
-  // {
-  //   path: "/about",
-  //   name: "about",
-  //   component: AboutView,
-  // },
 ];
 
 const router = createRouter({
   history: createWebHashHistory(process.env.BASE_URL),
   routes,
-  // scrollBehavior(to, from) {
-  //   return {
-  //     el: "#about",
-  //     top: -10,
-  //   };
-  // },
 });
 
 export default router;

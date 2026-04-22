@@ -4,6 +4,8 @@
     h6.card-title {{title}}
     a(:href="link" target="_blank")
       img.img-fluid(v-if="img" :src="img")
+    ul.lang-list(v-if="items && items.length")
+      li(v-for="item in items") {{item}}
 
 </template>
 
@@ -11,11 +13,12 @@
 import { defineComponent } from "vue";
 
 export default defineComponent({
-  name: "SkillCard",
+  name: "CertiCard",
   props: {
     title: String,
     subTitle: String,
     des: Array,
+    items: Array,
     img: String,
     link: String,
   },
@@ -38,4 +41,16 @@ export default defineComponent({
 .certi
   object-fit: cover
   height: 100%
+.lang-list
+  list-style-type: none
+  padding: 0
+  margin-top: 0.8rem
+  text-align: left
+  li
+    font-size: 0.95rem
+    color: #446647
+    padding: 0.3rem 0
+    border-bottom: 1px solid #d8ddd4
+    &:last-child
+      border-bottom: none
 </style>

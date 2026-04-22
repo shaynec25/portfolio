@@ -16,12 +16,10 @@
 </template>
 <script lang="ts">
 import { defineComponent } from "vue";
-import { Timeline, TimelineTitle, TimelineItem } from "vue3-timeline";
+import { Timeline, TimelineItem } from "vue3-timeline";
 import TimeLineCard from "../components/TimeLineCard.vue";
 export default defineComponent({
-  components: { Timeline, TimelineTitle, TimelineItem, TimeLineCard },
-  data() {
-    return {};
-  },
+  name: "ExperienceView",
+  components: { Timeline, TimelineItem, TimeLineCard },
 });
 </script>

@@ -12,68 +12,67 @@
               a.d-none.d-lg-block(:href="navItem.path" :class="[isTop? 'text-light' : 'text-dark']") {{navItem.name}}
               a.d-lg-none.text-light(:href="navItem.path") {{navItem.name}}
             li.nav-link.lang-text(style="--bs-nav-link-font-size: 10px;" @click="setLang") {{$t('btn-lang')}}
-Waypoint(@change="onchange")
+Waypoint(@change="onChange")
   HomeView
 AboutView
-EnEView
+ExperienceView
 SkillView
 WorkView
-SpecialView
+SpecialExperienceView
 </template>
 <script lang="ts">
 import { defineComponent } from "vue";
 import { Waypoint } from "vue-waypoint";
 import HomeView from "@/views/HomeView.vue";
 import AboutView from "@/views/AboutView.vue";
-import EnEView from "@/views/EnEView.vue";
+import ExperienceView from "@/views/ExperienceView.vue";
 import SkillView from "@/views/SkillView.vue";
 import WorkView from "@/views/WorkView.vue";
-import SpecialView from "@/views/SpecialExperience.vue";
+import SpecialExperienceView from "@/views/SpecialExperienceView.vue";
 
 export default defineComponent({
   components: {
     HomeView,
     AboutView,
     Waypoint,
-    EnEView,
+    ExperienceView,
     SkillView,
     WorkView,
-    SpecialView: SpecialView,
+    SpecialExperienceView,
   },
   data() {
     return {
       isTop: true,
       navLists: [
         {
-          name: "About ",
+          name: "About",
           path: "#about",
         },
         {
-          name: "Experience & Education ",
+          name: "Experience & Education",
           path: "#experienceAndEdu",
         },
         {
-          name: "Skill ",
+          name: "Skill",
           path: "#skill",
         },
         {
-          name: "Works ",
+          name: "Works",
           path: "#works",
         },
         {
-          name: "Special Experience ",
+          name: "Special Experience",
           path: "#specialExperience",
         },
         {
-          name: "Download My Resume ",
+          name: "Download My Resume",
           path: "https://www.cake.me/pdf/s--HtdiPqmbf5R9wpHJEWKUwA--/72Xw1Z.pdf",
         },
       ],
     };
   },
   methods: {
-    onchange(state: any) {
-      console.log(state.going);
+    onChange(state: any) {
       if (state.going == "IN") {
         this.isTop = true;
       } else {
@@ -81,7 +80,7 @@ export default defineComponent({
       }
     },
     setLang() {
-      let currentLang = localStorage.getItem("set-lang");
+      const currentLang = localStorage.getItem("set-lang");
       localStorage.setItem("set-lang", currentLang == "tw" ? "en" : "tw");
       location.reload();
     },

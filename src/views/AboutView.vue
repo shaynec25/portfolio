@@ -18,11 +18,9 @@
 </template>
 <script lang="ts">
 export default {
-  name: "TimeLine",
+  name: "AboutView",
   data() {
-    return {
-      aboutItems: [],
-    };
+    return {};
   },
 };
 </script>

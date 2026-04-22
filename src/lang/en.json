@@ -6,7 +6,7 @@
       "EX": "Experience",
       "EDU": "Education",
       "SKILL": "Skill & Abilities",
-      "CERTI": "Certificates",
+      "CERTI": "Certificates & Language",
       "WORK": "Works",
       "SE": "Special Experience"
     },
@@ -142,6 +142,10 @@
         "TITLE": "Swift Certified User",
         "IMG": "https://images.credly.com/size/300x300/images/9b0ac7af-f7ac-4938-96a4-2d4805bfe23f/image.png",
         "LINK": "https://www.credly.com/badges/5e6f7f78-d15b-4469-8cc9-7909180c8607/public_url"
+      },
+      {
+        "TITLE": "Language Skills",
+        "ITEMS": ["Chinese: Native", "English: TOEIC 925"]
       }
     ],
     "WORKS":[

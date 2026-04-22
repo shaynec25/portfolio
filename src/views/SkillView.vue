@@ -8,7 +8,7 @@
     .row.pb-5.p-3
       h1 {{ $t("SECTION_TITLE.CERTI")}}
       div(v-for="certi in $tm('CERTIS')").col-6.col-md-3.my-3
-        CertiCard(:title="certi.TITLE" :img="certi.IMG" :link="certi.LINK")
+        CertiCard(:title="certi.TITLE" :img="certi.IMG" :link="certi.LINK" :items="certi.ITEMS")
 
 </template>
 <script lang="ts">

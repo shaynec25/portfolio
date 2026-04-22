@@ -8,7 +8,7 @@
 </template>
 <script lang="ts">
 import { defineComponent } from "vue";
-import ProjectCard from "../components/ProjectsCard.vue";
+import ProjectCard from "../components/ProjectCard.vue";
 export default defineComponent({
   components: { ProjectCard },
 });

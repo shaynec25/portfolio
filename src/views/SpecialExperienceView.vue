@@ -1,5 +1,5 @@
 <template lang="pug">
-#specailExperience
+#specialExperience
     img.w-100(src="../assets/au_qld.jpg")
     .p-3.container
         .row.py-5.text-start
@@ -12,10 +12,11 @@
 </template>
 <script lang="ts">
 import { defineComponent } from "vue";
-import { Timeline, TimelineTitle, TimelineItem } from "vue3-timeline";
+import { Timeline, TimelineItem } from "vue3-timeline";
 import TimeLineCard from "../components/TimeLineCard.vue";
 export default defineComponent({
-  components: { Timeline, TimelineTitle, TimelineItem, TimeLineCard },
+  name: "SpecialExperienceView",
+  components: { Timeline, TimelineItem, TimeLineCard },
 });
 </script>
 <style lang="sass" scoped>
