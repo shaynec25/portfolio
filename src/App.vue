@@ -9,8 +9,8 @@
         #navbarOnMobile.collapse.navbar-collapse
           ul.navbar-nav.ms-auto
             li.nav-link(style="--bs-nav-link-font-size: 10px;" v-for="navItem in navLists")
-              a.d-none.d-lg-block(:href="navItem.path" :download="navItem.download" :class="[isTop? 'text-light' : 'text-dark']") {{navItem.name}}
-              a.d-lg-none.text-light(:href="navItem.path" :download="navItem.download") {{navItem.name}}
+              a.d-none.d-lg-block(:href="navItem.path" :target="navItem.target" :rel="navItem.target && 'noopener noreferrer'" :class="[isTop? 'text-light' : 'text-dark']") {{navItem.name}}
+              a.d-lg-none.text-light(:href="navItem.path" :target="navItem.target" :rel="navItem.target && 'noopener noreferrer'") {{navItem.name}}
             li.nav-link.lang-text(style="--bs-nav-link-font-size: 10px;" @click="setLang") {{$t('btn-lang')}}
 Waypoint(@change="onChange")
   HomeView
@@ -70,7 +70,7 @@ export default defineComponent({
         {
           name: "Download My Resume",
           path: RESUME_PDF_URL,
-          download: "shayne_chang_resume.pdf",
+          target: "_blank",
         },
       ],
     };
