@@ -31,6 +31,6 @@ jobs:
         with:
           personal_token: ${{ secrets.DEPLOY_TOKEN }}
           external_repository: shaynec25/shaynec25.github.io
-          publish_branch: master
+          publish_branch: main
           publish_dir: ./dist
           destination_dir: shayne
