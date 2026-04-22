@@ -30,6 +30,9 @@ import SkillView from "@/views/SkillView.vue";
 import WorkView from "@/views/WorkView.vue";
 import SpecialExperienceView from "@/views/SpecialExperienceView.vue";
 
+const RESUME_PDF_URL =
+  "https://www.cake.me/pdf/s--sJR4hD0bHpZ1WQZ6w7KKJA--/72DJAJ.pdf";
+
 export default defineComponent({
   components: {
     HomeView,
@@ -66,7 +69,7 @@ export default defineComponent({
         },
         {
           name: "Download My Resume",
-          path: "https://www.cake.me/pdf/s--HtdiPqmbf5R9wpHJEWKUwA--/72Xw1Z.pdf",
+          path: RESUME_PDF_URL,
         },
       ],
     };
