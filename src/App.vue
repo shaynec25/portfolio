@@ -31,7 +31,7 @@ import WorkView from "@/views/WorkView.vue";
 import SpecialExperienceView from "@/views/SpecialExperienceView.vue";
 
 const RESUME_PDF_URL =
-  "https://raw.githubusercontent.com/shaynec25/portfolio/main/public/shayne_chang_resume.pdf";
+  "https://shaynec25.github.io/shayne/shayne_chang_resume.pdf";
 
 export default defineComponent({
   components: {
