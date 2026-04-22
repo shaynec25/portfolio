@@ -31,7 +31,7 @@ import WorkView from "@/views/WorkView.vue";
 import SpecialExperienceView from "@/views/SpecialExperienceView.vue";
 
 const RESUME_PDF_URL =
-  "https://www.cake.me/pdf/s--sJR4hD0bHpZ1WQZ6w7KKJA--/72DJAJ.pdf";
+  "https://raw.githubusercontent.com/shaynec25/portfolio/main/public/shayne_chang_resume.pdf";
 
 export default defineComponent({
   components: {
